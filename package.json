@@ -1,0 +1,18 @@
+{
+    "name": "Test",
+    "version": "0.0.0",
+    "private": "true",
+    "bin": "./index.js",
+    "scripts": {
+        "start": "node .",
+        "pkg": "pkg . -t node14-linux-x64"
+    },
+    "dependencies": {
+        "express": "^4.19.2",
+        "mysql": "^2.18.1",
+        "net": "^1.0.2"
+    },
+    "devDependencies": {
+        "pkg": "^5.8.1"
+    }
+}
