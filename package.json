@@ -1,5 +1,5 @@
 {
-    "name": "Test",
+    "name": "protTest",
     "version": "0.0.0",
     "private": "true",
     "bin": "./index.js",
