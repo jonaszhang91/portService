@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # 定义下载文件的URL和本地保存路径
-file_url="https://github.com/jonaszhang91/portService/raw/main/test/protTest"
-local_path="/home/menu/protTest"
+file_url="https://github.com/jonaszhang91/portService/raw/main/test/portTest"
+local_path="/home/menu/portTest"
 
 #删除文件
 rm -f "$local_path"
