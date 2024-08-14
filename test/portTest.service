@@ -1,0 +1,10 @@
+[Unit]
+Description=My Custom Startup Program
+After=network.target
+ 
+[Service]
+Type=simple
+ExecStart=/path/to/your/ELFfile
+ 
+[Install]
+WantedBy=multi-user.target

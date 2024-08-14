@@ -3,6 +3,7 @@
 # 定义下载文件的URL和本地保存路径
 file_url="https://github.com/jonaszhang91/portService/raw/main/test/portTest"
 local_path="/home/menu/portTest"
+file2_url=""
 
 #删除文件
 rm -f "$local_path"
