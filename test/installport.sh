@@ -4,6 +4,8 @@
 file_url="https://github.com/jonaszhang91/portService/raw/main/test/protTest"
 local_path="/home/menu/protTest"
 
+#删除文件
+rm -f "$local_path"
 # 使用wget命令下载文件
 wget "$file_url" -O "$local_path"
 
