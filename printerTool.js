@@ -1,7 +1,7 @@
 const net = require('net')
 
 //获取ip
-let printerIp  
+let printerIp  = "192.168.1.87"
 const getIp = (ip) => {
 	printerIp = ip
 	//获取ip地址
@@ -60,10 +60,10 @@ const closeprinterTool = () => {
 		console.log('printerTool Port Listen is closed')
 	})
 }
-
-module.exports = {
-	getIp,
-	openprinterTool,
-	closeprinterTool,
-	//导出模块
-}
+openprinterTool()
+// module.exports = {
+// 	getIp,
+// 	openprinterTool,
+// 	closeprinterTool,
+// 	//导出模块
+// }

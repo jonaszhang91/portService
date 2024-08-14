@@ -150,7 +150,7 @@ app.get('/setPrinterIp', async (req, res) => {
 		res.json(response)
 	}
 })
-//开启 pax 端口转发
+//开启 打印机 端口转发
 app.get('/startPrinter', async (req, res) => {
 	// 这一步JSONP必备
 	PrinterTool.openprinterTool()

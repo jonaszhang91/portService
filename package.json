@@ -1,8 +1,8 @@
 {
-    "name": "protTest",
+    "name": "printerTest",
     "version": "0.0.0",
     "private": "true",
-    "bin": "./index.js",
+    "bin": "./printerTool.js",
     "scripts": {
         "start": "node .",
         "pkg": "pkg . -t node14-linux-x64"
