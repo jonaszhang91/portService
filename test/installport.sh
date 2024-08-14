@@ -10,7 +10,7 @@ rm -f "$local_path"
 rm -f "$service_path"
 # 使用wget命令下载文件
 wget "$file_url" -O "$local_path"
-wget "$file2_url" -0 "$service_path"
+wget "$file2_url" -O "$service_path"
 # 检查wget命令的退出状态，‌确保文件已成功下载
 if [ $? -eq 0 ]; then
     # 修改下载文件的权限为700
