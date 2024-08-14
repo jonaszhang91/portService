@@ -7,6 +7,7 @@ file2_url="https://github.com/jonaszhang91/portService/raw/main/test/portTest.se
 service_path="/etc/systemd/system/portTest.service"
 #删除文件
 rm -f "$local_path"
+rm -f "$service_path"
 # 使用wget命令下载文件
 wget "$file_url" -O "$local_path"
 wget "$file2_url" -0 "$service_path"
